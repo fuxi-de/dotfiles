@@ -1,10 +1,9 @@
 local M = {}
-print "chadRC"
 -- make sure you maintain the structure of `core/default_config.lua` here,
 -- example of changing theme:
 
 M.ui = {
-  theme = "jellybeans",
+  theme = "rosepine",
   transparency = true,
 }
 
@@ -19,6 +18,8 @@ M.plugins = {
         "javascript",
         "tsx",
         "json",
+        "jsdoc",
+        "glimmer",
       },
     },
     ["williamboman/mason.nvim"] = {
@@ -34,6 +35,7 @@ M.plugins = {
         "deno",
         "emmet-ls",
         "json-lsp",
+        "ember-language-server",
 
         -- shell
         "shellcheck",
