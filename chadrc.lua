@@ -35,7 +35,7 @@ M.plugins = {
         "deno",
         "emmet-ls",
         "json-lsp",
-        "ember-language-server",
+        "prettier",
 
         -- shell
         "shellcheck",

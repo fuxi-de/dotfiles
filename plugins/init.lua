@@ -3,6 +3,10 @@ return {
     disable = false,
   },
 
+  ["folke/which-key.nvim"] = {
+    disable = false,
+  },
+
   ["elkowar/yuck.vim"] = { ft = "yuck" },
 
   ["max397574/better-escape.nvim"] = {
